@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300;400&display=swap');
+/* selector universal */
+*{
+    font-family: 'Kalnia', sans-serif;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+/* 1 - selector de etiqueta */
+h1{
+    color: lightpink;
+    font-size: 45px;
+    text-align: center;
+}
+h2{
+    color: plum;
+    font-size: 32px;
+    text-align: center;
+}
+
+h3{
+    font-size: 24px;
+    text-align: center;
+}
+
+p{
+    color: lightslategray;
+    font-size: 18px;
+    line-height: 24px;
+}
+h1,h2,h3,p,a{
+    font-family: 'Kalnia', serif;
+}
+
+/* selectores descendentes */
+.menu{
+    background-color: rgba(182, 146, 216,0.25);
+    padding: 8px 30px;
+    position:sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* flexbox */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu img{
+    width: 90px;
+}
+.menu ul{
+    list-style: none;
+    /* flexbox */
+    display: flex;
+}
+.menu ul li{
+    margin-right: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(239, 137, 217);
+    font-size: 24px;
+}
+.header img{
+    width: 100%;
+}
+
+/* productos destacados */
+
+.productos-destacados{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px 50px;
+    background-color: rgb(255, 240, 246);
+}
+figure.products{
+    border: 1px solid rgb(160, 58, 134);
+    border-radius: 10px;
+    width: 30%;
+    background-color: rgb(229, 193, 208);
+    margin-bottom: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+figure.products img{
+    width: 100%;
+}
+figure.products figcaption{
+    color: rgb(122, 51, 107);
+    font-size: 1.4em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+}
+figure.products a{
+    background-color: rgb(140, 92, 185);
+    color: aliceblue;
+    padding: 4px 30px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+}
+figure.products p{
+    margin-bottom: 30px;
+    font-size: 1.1em;
+    line-height: 1.4em
+}
+.footer img{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    width: 10%;
+}
+
+/* 2- selector de clase */
+.text-bold{
+    font-weight: bold;
+}
+.text-italic{
+    font-style: italic;
+}
+.text-orchid{
+    color: rgb(31, 199, 121);
+}
+
+/*bootstrap*/
+.titulo h1{
+    color: lightpink;
+
+}
+.titulo h2{
+    color: plum;
+}
+
+.carousel-caption h3{
+    color: rgba(190, 90, 184, 0.938);
+    background-color: rgba(255, 235, 205, 0.661);
+}
+.carousel-caption p{
+    color: rgb(77, 27, 92);
+    background-color: rgba(255, 235, 205, 0.661);
+}
+.equipo h2{
+    color: plum;
+}
+.bg-btn{
+    background-color: rgb(160, 58, 134) !important; 
+    color: beige !important;
+}
+.card-text {
+    color: plum;
+}
+.card-title{
+    color: darkmagenta !important ;
+    background-color: rgba(255, 205, 252, 0.661);
+}
