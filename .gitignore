@@ -4,4 +4,4 @@ node_modules/
 *.ai
 *.map
 vscode/
-passwords.tx
+passwords.txt
